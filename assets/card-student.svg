@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 412 214" width="412" height="214" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" role="img" aria-label="Student Performance">
+<defs>
+<linearGradient id="bgc" x1="0" y1="0" x2="1" y2="1">
+<stop offset="0" stop-color="#0a100e"/><stop offset="1" stop-color="#101c18"/>
+</linearGradient>
+</defs>
+<clipPath id="clip"><rect x="1" y="1" width="410" height="212" rx="12"/></clipPath>
+<rect x="1" y="1" width="410" height="212" rx="12" fill="url(#bgc)" stroke="#22332d"/>
+<rect x="1" y="1" width="5" height="212" fill="#a78bfa" clip-path="url(#clip)"/>
+<g transform="translate(112,2) scale(.7)">
+<path d="M300 62 C322 62 326 24 344 24 C362 24 366 62 388 62" fill="#a78bfa" fill-opacity=".18" stroke="#a78bfa" stroke-width="2" stroke-opacity=".85"/>
+<line x1="344" y1="24" x2="344" y2="62" stroke="#a78bfa" stroke-dasharray="2 3"/>
+</g>
+<text x="26" y="42" font-size="19" font-weight="800" fill="#f1f5f9">Student Performance</text>
+<text x="26" y="66" font-size="12" fill="#9aa9a4">Data cleaning and exploration to find the factors</text>
+<text x="26" y="83" font-size="12" fill="#9aa9a4">that drive students' academic performance.</text>
+<rect x="26" y="118" width="96" height="46" rx="7" fill="#ffffff" fill-opacity=".04" stroke="#22332d"/>
+<text x="74" y="138" font-size="15" font-weight="800" fill="#f1f5f9" text-anchor="middle">Cleaning</text>
+<text x="74" y="154" font-size="10" fill="#9aa9a4" text-anchor="middle">raw to tidy</text>
+<rect x="129.6" y="118" width="107" height="46" rx="7" fill="#ffffff" fill-opacity=".04" stroke="#22332d"/>
+<text x="183" y="138" font-size="15" font-weight="800" fill="#f1f5f9" text-anchor="middle">EDA</text>
+<text x="183" y="154" font-size="10" fill="#9aa9a4" text-anchor="middle">factor analysis</text>
+<rect x="244.6" y="118" width="87" height="46" rx="7" fill="#ffffff" fill-opacity=".04" stroke="#22332d"/>
+<text x="288" y="138" font-size="15" font-weight="800" fill="#f1f5f9" text-anchor="middle">Visuals</text>
+<text x="288" y="154" font-size="10" fill="#9aa9a4" text-anchor="middle">Seaborn</text>
+<rect x="26" y="178" width="57" height="20" rx="10" fill="#a78bfa" fill-opacity=".14"/>
+<text x="54" y="192" font-size="10.5" font-weight="600" fill="#a78bfa" text-anchor="middle">Python</text>
+<rect x="88.53999999999999" y="178" width="50" height="20" rx="10" fill="#a78bfa" fill-opacity=".14"/>
+<text x="114" y="192" font-size="10.5" font-weight="600" fill="#a78bfa" text-anchor="middle">NumPy</text>
+<rect x="144.99" y="178" width="63" height="20" rx="10" fill="#a78bfa" fill-opacity=".14"/>
+<text x="176" y="192" font-size="10.5" font-weight="600" fill="#a78bfa" text-anchor="middle">Seaborn</text>
+</svg>
