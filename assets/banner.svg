@@ -1,0 +1,106 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 240" width="840" height="240" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" role="img" aria-label="Piyush Priyanshu - Data science and ML">
+<defs>
+<linearGradient id="bgb" x1="0" y1="0" x2="1" y2="1">
+<stop offset="0" stop-color="#0a100e"/><stop offset="1" stop-color="#101c18"/>
+</linearGradient>
+<radialGradient id="gab" cx="1" cy="0" r="1">
+<stop offset="0" stop-color="#4fb8a8" stop-opacity=".05"/><stop offset="1" stop-color="#4fb8a8" stop-opacity="0"/>
+</radialGradient>
+<radialGradient id="gbb" cx="0" cy="1" r=".9">
+<stop offset="0" stop-color="#4fb8a8" stop-opacity=".03"/><stop offset="1" stop-color="#4fb8a8" stop-opacity="0"/>
+</radialGradient>
+<linearGradient id="nmb" x1="0" y1="0" x2="1" y2="0">
+<stop offset="0" stop-color="#f4f6f5"/><stop offset="1" stop-color="#f4f6f5"/>
+</linearGradient>
+<linearGradient id="bdb" x1="0" y1="0" x2="1" y2="1">
+<stop offset="0" stop-color="#22332d"/><stop offset="1" stop-color="#22332d"/>
+</linearGradient>
+</defs>
+<style>
+.bc{animation:bcandle 9s linear infinite backwards}
+@keyframes bcandle{0%{opacity:0;transform:translateY(7px)}5%{opacity:1;transform:translateY(0)}66%{opacity:1;transform:translateY(0)}72%,100%{opacity:0;transform:translateY(-5px)}}
+.ma{stroke-dasharray:1;animation:bma 9s linear infinite}
+@keyframes bma{0%{stroke-dashoffset:1}32%{stroke-dashoffset:0}68%{stroke-dashoffset:0}97%,100%{stroke-dashoffset:-1}}
+.head{transform-box:fill-box;transform-origin:50% 50%;animation:bhead 9s linear infinite}
+@keyframes bhead{0%,30%{opacity:0;transform:scale(.5)}34%{opacity:1;transform:scale(1.8)}40%{opacity:1;transform:scale(1)}50%{transform:scale(1.5)}60%{transform:scale(1)}66%{opacity:1;transform:scale(1)}70%,100%{opacity:0;transform:scale(.5)}}
+.dot{animation:pulse 2s ease-in-out infinite}
+@keyframes pulse{0%,100%{opacity:1}50%{opacity:.35}}
+@media (prefers-reduced-motion:reduce){.bc,.ma,.head,.dot{animation:none}}
+</style>
+<rect x="1" y="1" width="838" height="238" rx="14" fill="url(#bgb)"/>
+<rect x="1" y="1" width="838" height="238" rx="14" fill="url(#gab)"/>
+<rect x="1" y="1" width="838" height="238" rx="14" fill="url(#gbb)" stroke="url(#bdb)" stroke-width="1.5"/>
+<rect x="40" y="30" width="156" height="26" rx="13" fill="#4fb8a8" fill-opacity=".12" stroke="#4fb8a8" stroke-opacity=".5"/>
+<circle class="dot" cx="56" cy="43" r="4" fill="#4fb8a8"/>
+<text x="68" y="47.5" font-size="12.5" font-weight="600" fill="#4fb8a8">Open to internships</text>
+<text x="40" y="108" font-size="42" font-weight="800" fill="url(#nmb)" letter-spacing="-.5">Piyush Priyanshu</text>
+<text x="40" y="142" font-size="17" font-weight="500" fill="#4fb8a8">Data science &amp; ML: quant finance, time-series forecasting</text>
+<rect x="40" y="168" width="146" height="30" rx="15" fill="#ffffff" fill-opacity=".04" stroke="#22332d"/>
+<text x="113" y="187.5" font-size="12.5" font-weight="600" fill="#f4f6f5" text-anchor="middle">Machine learning</text>
+<rect x="196.0" y="168" width="197" height="30" rx="15" fill="#ffffff" fill-opacity=".04" stroke="#22332d"/>
+<text x="294" y="187.5" font-size="12.5" font-weight="600" fill="#f4f6f5" text-anchor="middle">Time-series forecasting</text>
+<rect x="402.75" y="168" width="168" height="30" rx="15" fill="#ffffff" fill-opacity=".04" stroke="#22332d"/>
+<text x="487" y="187.5" font-size="12.5" font-weight="600" fill="#f4f6f5" text-anchor="middle">Data analytics &amp; BI</text>
+<line x1="606" y1="52" x2="812" y2="52" stroke="#22332d" stroke-dasharray="3 5"/>
+<line x1="606" y1="120.0" x2="812" y2="120.0" stroke="#22332d" stroke-dasharray="3 5"/>
+<line x1="606" y1="188" x2="812" y2="188" stroke="#22332d" stroke-dasharray="3 5"/>
+<g class="bc" style="animation-delay:0.00s">
+<line x1="618.0" y1="146.1" x2="618.0" y2="167.1" stroke="#ff7a7a" stroke-width="1.6"/>
+<rect x="613.0" y="153.1" width="10" height="7.0" rx="1.5" fill="#c81414" stroke="#ff7a7a" stroke-width="1"/>
+</g>
+<g class="bc" style="animation-delay:0.18s">
+<line x1="632.0" y1="153.1" x2="632.0" y2="177.6" stroke="#ff7a7a" stroke-width="1.6"/>
+<rect x="627.0" y="160.1" width="10" height="10.5" rx="1.5" fill="#c81414" stroke="#ff7a7a" stroke-width="1"/>
+</g>
+<g class="bc" style="animation-delay:0.36s">
+<line x1="646.0" y1="149.6" x2="646.0" y2="177.6" stroke="#5fe08a" stroke-width="1.6"/>
+<rect x="641.0" y="156.6" width="10" height="13.9" rx="1.5" fill="#0f9d3a" stroke="#5fe08a" stroke-width="1"/>
+</g>
+<g class="bc" style="animation-delay:0.54s">
+<line x1="660.0" y1="149.6" x2="660.0" y2="170.6" stroke="#ff7a7a" stroke-width="1.6"/>
+<rect x="655.0" y="156.6" width="10" height="7.0" rx="1.5" fill="#c81414" stroke="#ff7a7a" stroke-width="1"/>
+</g>
+<g class="bc" style="animation-delay:0.72s">
+<line x1="674.0" y1="139.2" x2="674.0" y2="170.6" stroke="#5fe08a" stroke-width="1.6"/>
+<rect x="669.0" y="146.2" width="10" height="17.4" rx="1.5" fill="#0f9d3a" stroke="#5fe08a" stroke-width="1"/>
+</g>
+<g class="bc" style="animation-delay:0.90s">
+<line x1="688.0" y1="125.2" x2="688.0" y2="153.2" stroke="#5fe08a" stroke-width="1.6"/>
+<rect x="683.0" y="132.2" width="10" height="13.9" rx="1.5" fill="#0f9d3a" stroke="#5fe08a" stroke-width="1"/>
+</g>
+<g class="bc" style="animation-delay:1.08s">
+<line x1="702.0" y1="125.2" x2="702.0" y2="149.7" stroke="#ff7a7a" stroke-width="1.6"/>
+<rect x="697.0" y="132.2" width="10" height="10.5" rx="1.5" fill="#c81414" stroke="#ff7a7a" stroke-width="1"/>
+</g>
+<g class="bc" style="animation-delay:1.26s">
+<line x1="716.0" y1="118.2" x2="716.0" y2="149.7" stroke="#5fe08a" stroke-width="1.6"/>
+<rect x="711.0" y="125.2" width="10" height="17.4" rx="1.5" fill="#0f9d3a" stroke="#5fe08a" stroke-width="1"/>
+</g>
+<g class="bc" style="animation-delay:1.44s">
+<line x1="730.0" y1="118.2" x2="730.0" y2="142.7" stroke="#ff7a7a" stroke-width="1.6"/>
+<rect x="725.0" y="125.2" width="10" height="10.5" rx="1.5" fill="#c81414" stroke="#ff7a7a" stroke-width="1"/>
+</g>
+<g class="bc" style="animation-delay:1.62s">
+<line x1="744.0" y1="107.8" x2="744.0" y2="142.7" stroke="#5fe08a" stroke-width="1.6"/>
+<rect x="739.0" y="114.8" width="10" height="20.9" rx="1.5" fill="#0f9d3a" stroke="#5fe08a" stroke-width="1"/>
+</g>
+<g class="bc" style="animation-delay:1.80s">
+<line x1="758.0" y1="90.3" x2="758.0" y2="121.8" stroke="#5fe08a" stroke-width="1.6"/>
+<rect x="753.0" y="97.3" width="10" height="17.4" rx="1.5" fill="#0f9d3a" stroke="#5fe08a" stroke-width="1"/>
+</g>
+<g class="bc" style="animation-delay:1.98s">
+<line x1="772.0" y1="90.3" x2="772.0" y2="114.8" stroke="#ff7a7a" stroke-width="1.6"/>
+<rect x="767.0" y="97.3" width="10" height="10.5" rx="1.5" fill="#c81414" stroke="#ff7a7a" stroke-width="1"/>
+</g>
+<g class="bc" style="animation-delay:2.16s">
+<line x1="786.0" y1="79.9" x2="786.0" y2="114.8" stroke="#5fe08a" stroke-width="1.6"/>
+<rect x="781.0" y="86.9" width="10" height="20.9" rx="1.5" fill="#0f9d3a" stroke="#5fe08a" stroke-width="1"/>
+</g>
+<g class="bc" style="animation-delay:2.34s">
+<line x1="800.0" y1="62.4" x2="800.0" y2="93.9" stroke="#5fe08a" stroke-width="1.6"/>
+<rect x="795.0" y="69.4" width="10" height="17.4" rx="1.5" fill="#0f9d3a" stroke="#5fe08a" stroke-width="1"/>
+</g>
+<polyline class="ma" pathLength="1" points="618.0,174.1 632.0,179.3 646.0,176.4 660.0,176.7 674.0,173.2 688.0,163.6 702.0,160.2 716.0,150.6 730.0,147.9 744.0,143.6 758.0,132.3 772.0,127.9 786.0,115.7 800.0,104.4" fill="none" stroke="#facc15" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<circle class="head" cx="800.0" cy="104.4" r="3.5" fill="#facc15"/>
+<text x="812" y="212" font-size="10.5" fill="#9aa9a4" text-anchor="end">price · moving average</text>
+</svg>
